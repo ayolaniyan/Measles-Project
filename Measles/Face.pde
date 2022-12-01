@@ -1,4 +1,4 @@
- float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
+float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
 float faceX, faceY, faceDiameter;
 //
 void faceSetup() {
