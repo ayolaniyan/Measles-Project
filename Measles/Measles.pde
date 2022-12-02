@@ -6,7 +6,7 @@ Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
-  size(600, 400); 
+  size(700, 500); 
   displayOrientation();
   appWidth = width;
   appHeight = height;
@@ -23,7 +23,7 @@ void draw() {
   //Theme: face & measles with different sizes and colours
   measlesDynamic();
   eyes();
-  mouth();
+  smile();
   nose();
 }//End draw
 //
