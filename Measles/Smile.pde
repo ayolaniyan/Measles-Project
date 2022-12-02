@@ -1,15 +1,15 @@
-int mouthOpen;
-float mouthX1, mouthY1, mouthX2, mouthY2;
+int smileOpen;
+float smileX1, smileY1, smileX2, smileY2;
 //
-void mouth() {
-  int mouthWidth = int ( mouthX2 - mouthX1 ); //length=end-beginning
-  int mouthHeight = mouthOpen;
-  //rect(mouthX1-mouthHeight*1/2, mouthY1-mouthHeight*1/2, mouthWidth+mouthOpen, mouthHeight);
-  strokeWeight(mouthOpen); //testing: 100=400/4, mouthOpen=height*1/4
-  line(mouthX1, mouthY1, mouthX2, mouthY2);
+void smile() {
+  int smileWidth = int ( smileX2 - smileX1 ); //length=end-beginning
+  int smileHeight = smileOpen;
+  //rect(smileX1-smileHeight*1/2,smileY1-smileHeight*1/2, smileWidth+smileOpen, smileHeight);
+  strokeWeight(smileOpen); //testing: 100=400/4, smileOpen=height*1/4
+  line(smileX1, smileY1, smileX2,smileY2);
   strokeWeight(reset); //reset to 1 pixel
   //comparison rect() line only, no caps, no strokeWeight
-  //rect(mouthX1, mouthY1, mouthWidth, mouthHeight); 
-} //End mouth
+  //rect(smileX1, smileY1, smileWidth, smileHeight); 
+} //End smile
 //
-//End Mouth Subprogram
+//End smile Subprogram

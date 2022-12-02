@@ -20,15 +20,15 @@ void population() {
   rightEyeY = leftEyeY; //Best Practice: change one line of code
   eyeDiameter = smallerDimension*1/4;
   //
-  mouthX1 = leftEyeX;
-  mouthY1 = smallerDimension*3/4;
-  mouthX2 = rightEyeX;
-  mouthY2 = mouthY1;
-  mouthOpen = smallerDimension*1/4;
+  smileX1 = leftEyeX;
+  smileY1 = smallerDimension*3/4;
+  smileX2 = rightEyeX;
+  smileY2 = smileY1;
+  smileOpen = smallerDimension*1/4;
   //
   xNose1 = faceX;
   yNose1 = leftEyeY;
-  xNose2 = faceX - leftEyeY*1/2;
+  xNose2 = faceX - leftEyeY*2/5;
   yNose2 = faceY ;
   xNose3 = faceX + leftEyeY*1/2;
   yNose3 = faceY ;
