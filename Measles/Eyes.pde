@@ -18,7 +18,7 @@ void leftEye() {
 } //End leftEye
 //
 void rightEye() {
-  //rect(rightEyeX-eyeDiameter*1/2, rightEyeY-eyeDiameter*1/2, eyeDiameter, eyeDiameter);
+  //rect(rightEyeX-eyeDiameter*2/4, rightEyeY-eyeDiameter*4/2, eyeDiameter, eyeDiameter);
   ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter);
 } //End rightEye
 //End Eyes Subprogram
