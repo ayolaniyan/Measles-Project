@@ -5,9 +5,7 @@ void eyes() {
   rightEye();
 } //End eyes
 //
-/* CAUTION: ellipses are easier to draw here then rectangles (squares)
- Thus, using eye-variables first and creating the inscribed rect()
- */
+
 //
 void leftEye() {
   //Logical Rectangle for Left Eye, teacher demo, repeated below
